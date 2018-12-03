@@ -6,50 +6,65 @@ $second-color: #f2702e;
 
 body {
     font-family: 'Montserrat';
-  
     height: auto;
     max-width: 100%;
     margin: 1%;  
 }
 
-header { display: grid;
-grid-template-columns: 1fr 1fr;
+header { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     background-color: white;
    
-    img{ max-width: 70%;
-         margin: 7%;}
+    img{ 
+        max-width: 70%;
+        margin: 7%;
+    }
     
-    i {font-size: 2.5em;
+    i {
+    font-size: 2.5em;
     margin-top: 7%;
-    margin-left: 60%;}
+    margin-left: 60%;
+    }
     
-    nav {display: none;
+    nav {
+        display: none;
         position: fixed;
         top: 10%;
         left: 2%;
         right: 2%;
-    background-color: black;
-    width: 95%;
+        background-color: black;
+        width: 95%;
     }
-    ul {padding: 0;
-    margin-right: 5%;}
     
-    li {color: $second-color;
-    padding: 3.5%;
-
+    ul {
+        padding: 0;
+        margin-right: 5%;
+    }
+    
+    li {
+        color: $second-color;
+        padding: 3.5%;
         font-size: 1.3em;
-         text-align: center;
+        text-align: center;
    }    
     
-    a {text-decoration: none;}
+    a {
+     text-decoration: none;
+    }
     
-    nav.visible {display: block;}
-
+    nav.visible {
+        display: block;
+    }
     
 }
-.desktop-nav{display: none;}
+.desktop-nav{
+    display: none;
+}
 
-main {  background-color: $primary-color;}
+main { 
+    background-color: $primary-color;
+}
 
 button {
     display: inline-block;
