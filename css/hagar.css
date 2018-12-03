@@ -103,4 +103,20 @@ footer {
   height: auto;
   font-size: 0.7em; }
 
-/*# sourceMappingURL=hagar.css.map */
+.artist-desktop {
+  display: none; }
+
+.artist-mobile {
+  padding-bottom: 3%;
+  padding-top: 3%; }
+
+.artist {
+  text-align: center;
+  margin-bottom: 5%; }
+  .artist img {
+    max-width: 100%; }
+  .artist ul {
+    padding: 2%; }
+  .artist li {
+    padding: 1%;
+    font-size: 1.5em; }
