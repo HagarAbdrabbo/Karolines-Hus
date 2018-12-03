@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light");
+@import url("https://fonts.googleapis.com/css?family=Rajdhani");
+
 body {
   height: auto;
   max-width: 100%;
@@ -49,12 +52,15 @@ button {
   color: #FFFFFF;
   text-align: center;
   font-size: 1.2em;
-  padding: 20px;
+  padding: 3.5%;
   width: 40%;
   transition: all 0.5s;
   cursor: pointer;
   margin: 1%;
-  margin-top: -3%; }
+  margin-top: -3%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
 
 button span {
   cursor: pointer;
@@ -81,3 +87,19 @@ hr {
   width: 80%;
   height: 0.2vh;
   background-color: black; }
+
+p {
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: bolder;
+  font-size: 1.2em; }
+
+h2 {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 2em; }
+
+footer {
+  text-align: center;
+  height: auto;
+  font-size: 0.7em; }
+
+/*# sourceMappingURL=global.css.map */
