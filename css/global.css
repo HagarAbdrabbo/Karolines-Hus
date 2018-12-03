@@ -1,36 +1,53 @@
-/*
-Error: Invalid CSS after "}": expected "}", was ""
-        on line 65 of C:\Users\Hager Hamdy\Documents\GitHub\Karolines-Hus\css\global.scss
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+* {
+  margin: 0;
+  padding: 0;
+  color: white; }
 
-60: 
-61:     hr{
-62:     width: 80%;
-63:     height: 0.2vh;
-64:     background-color: black;
-65: }
+body {
+  font-family: 'Montserrat';
+  background-color: #F0F0F0;
+  height: auto;
+  max-width: 100%;
+  margin: 1%; }
 
-Backtrace:
-C:\Users\Hager Hamdy\Documents\GitHub\Karolines-Hus\css\global.scss:65
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:679:in `block'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:670:in `ruleset'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:290:in `render'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:400:in `run'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
-C:/Program Files (x86)/Koala/bin/sass:22:in `load'
-C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"}\": expected \"}\", was \"\"\A         on line 65 of C:\Users\Hager Hamdy\Documents\GitHub\Karolines-Hus\css\global.scss\A \A 60: \A 61:     hr{\A 62:     width: 80%;\A 63:     height: 0.2vh;\A 64:     background-color: black;\A 65: }"; }
+button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f2702e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 1.2em;
+  padding: 20px;
+  width: 40%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 1%;
+  margin-top: -3%; }
+
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s; }
+
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s; }
+
+button:hover span {
+  padding-right: 25px; }
+
+button:hover span:after {
+  opacity: 1;
+  right: 0; }
+
+hr {
+  width: 80%;
+  height: 0.2vh;
+  background-color: black; }
