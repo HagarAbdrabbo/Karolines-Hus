@@ -1,6 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
 body {
-  font-family: 'Montserrat';
   height: auto;
   max-width: 100%;
   margin: 1%; }
@@ -107,5 +105,3 @@ hr {
   /* The height is 400 pixels */
   width: 100%;
   /* The width is the width of the web page */ }
-
-/*# sourceMappingURL=bruna.css.map */

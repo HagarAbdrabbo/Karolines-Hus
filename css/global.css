@@ -1,6 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
 body {
-  font-family: 'Montserrat';
   height: auto;
   max-width: 100%;
   margin: 1%; }
@@ -83,5 +81,3 @@ hr {
   width: 80%;
   height: 0.2vh;
   background-color: black; }
-
-/*# sourceMappingURL=global.css.map */
