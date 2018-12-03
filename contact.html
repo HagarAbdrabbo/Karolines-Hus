@@ -8,7 +8,9 @@
   <meta name="description" content="Get started with HTML, CSS and JavaScript">
   <meta name="author" content="Rasmus Cederdorff">
   <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bruna.css">
   <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">    
 </head>
 
 <body>
@@ -16,7 +18,7 @@
    <!--- logo img --->
    <img>
    <!-- starting the navigation -->
-   <nav>
+   <nav> 
       <ul>
           <li>Artists</li>
           <li>About Us</li>
@@ -27,39 +29,50 @@
   
   <!-- starting the body of the home page -->
   <main>
+      
    <section>
       <!-- a contact information link --->
        <article>
           <h2>Contact info:</h2>
           <!-- font awesome -->
+           <ul class="contact-info">
+    <li><i class="fas fa-phone"></i> +45 61 37 75 62</li>
+    <li><a><i class="far fa-envelope"></i> karolines.hus@icloud.com</a></li>  
+    <li><i class="fas fa-map-marker-alt"></i> Madsbadvej 40 
+7884 Fur, Danmark</li>           
+   </ul>
            
        </article>
        
        <!-- opening houers info -->
        <article>
           <h2>Opening houres:</h2>
-       <ul>
-           <li></li>
-           <li></li>
-           <li></li>
+       <ul class="opening">
+           <li calss="hours">yes</li>
+           <li calss="hours">yes</li>
+           <li calss="hours">yes</li>
        </ul>
            
        </article>
    </section>
   <hr>
-  <h2>location</h2>
+  <h2>Location</h2>
   <!-- a google map -->
+     <div id="map"></div>  
   
   <!-- sending emails -->
   <section>
    <h2>Send us an email</h2> 
    <p></p>  
-   <form>
-       <input>
-       <input>
-       <input>
-       <input>
-   </form>
+ <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+Full Name:
+<input type="text" name="name"><br><br>
+E-mail:
+<input type="text" name="mail"><br><br>
+Comment:
+    <textarea id="textarea" name="message" rows="10"></textarea>  <br><br>
+      <button class="button" style="vertical-align:middle"><span>Submit</span></button>
+</form>
   </section>
   </main>
   
@@ -71,6 +84,10 @@
   <!-- <script src="libs/jquery/jquery.min.js"></script> -->
   <!-- main js file -->
   <script src="js/main.js"></script>
+    <script async defer
+ src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+</script>    
+    
 </body>
 
 </html>
