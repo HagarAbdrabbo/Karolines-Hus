@@ -1,4 +1,6 @@
 @import 'global';
+// artist page - mobile version
+
 .artist-desktop {display: none;}
 .artist-mobile {padding-bottom: 3%;
 padding-top: 3%;}
@@ -8,5 +10,11 @@ padding-top: 3%;}
     ul {padding: 2%;}
     li {padding: 1%;
     font-size: 1.5em;}
+}
+/// about page - mobile 
 
+.about-page {text-align: center;
+    padding-top: 9%;
+    img {max-width: 100%;}
+    p {padding: 3%;}
 }

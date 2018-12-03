@@ -120,3 +120,11 @@ footer {
   .artist li {
     padding: 1%;
     font-size: 1.5em; }
+
+.about-page {
+  text-align: center;
+  padding-top: 9%; }
+  .about-page img {
+    max-width: 100%; }
+  .about-page p {
+    padding: 3%; }
