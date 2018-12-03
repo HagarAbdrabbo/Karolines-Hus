@@ -48,7 +48,7 @@
    <section>
       <!-- a contact information link --->
        <article>
-          <h2 class="contact-title">Contact info:</h2>
+          <h2 class="contact-title contact">Contact info:</h2>
           <!-- font awesome -->
            <ul class="contact-info">
     <li><i class="fas fa-phone"></i> +45 61 37 75 62</li>
@@ -60,12 +60,12 @@
        </article>
        
        <!-- opening houers info -->
-       <article>
-          <h2 class="contact-title">Opening houres:</h2>
+       <article class="opening-all">
+          <h2 class="contact-title">Opening hours:</h2>
        <ul class="opening">
-           <li calss="hours">yes</li>
-           <li calss="hours">yes</li>
-           <li calss="hours">yes</li>
+           <li class="hours">Monday - Friday: 13:00 - 17:00 h</li>
+           <li class="hours">yes</li>
+           <li class="hours">yes</li>
        </ul>
            
        </article>
@@ -81,11 +81,12 @@
    <p></p>  
  <form action="mailto:someone@example.com" method="post" enctype="text/plain">
 Full Name:
-<input type="text" name="name"><br><br>
+<input type="text" class="name" name="name" placeholder="Name..."><br><br>
 E-mail:
-<input type="text" name="mail"><br><br>
+<input type="email" class="email name" name="mail" placeholder="Email..."><br><br>
 Comment:
-    <textarea id="textarea" name="message" rows="10"></textarea>  <br><br>
+    <textarea name="message" rows="10"></textarea>  <br><br>
+     
       <button class="button" style="vertical-align:middle"><span>Submit</span></button>
 </form>
   </section>

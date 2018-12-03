@@ -46,10 +46,43 @@ ul{
 /* contact page */
 
 .contact-title{
-    margin-top: 6%;
+    margin-top: 8%;
     text-align: center;
 }
 
+.contact{
+    padding-top: 5%;
+}
+    
+i{
+    font-size: 1em;
+}
+
+li{
+    font-size: 1.2em;
+}
+
+.contact-info{
+    text-align: justify;
+    justify-content: all;
+    padding-left: 22%;
+    line-height: 4vh;
+}
+
+.opening-all{
+    margin-top: 10%; 
+}
+
+.opening{
+    padding-bottom: 5%;
+}
+
+.hours{
+    line-height: 4vh;
+    text-align: justify;
+    justify-content: all;
+    padding-left: 13%;
+}
 
 /* map */
 
@@ -58,3 +91,31 @@ ul{
         width: 100%;  /* The width is the width of the web page */
        }
 
+/* form */
+
+form{
+    margin-left: 8%;
+    text-align: justify;
+    justify-content: all;
+    font-size: 1.2em;
+}
+
+.name{
+    padding-left: 3%;
+}
+
+.email{
+   margin-left: 7%;
+}
+
+input{
+    height: 2.5vh;
+    width: 50%;
+    border-radius: 20px;
+}
+
+textarea{
+    margin-left: 2%;
+    width: 50%;
+    border-radius: 20px;
+}
