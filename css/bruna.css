@@ -1,12 +1,109 @@
-#wrapper {
-  max-width: 100%;
-  margin: 0 auto; }
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+* {
+  margin: 0;
+  padding: 0;
+  color: white; }
 
 body {
-  margin: 1%; }
+  font-family: 'Montserrat';
+  background-color: #22afd6;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr 4fr 2fr;
+  grid-template-areas: 'header' 'main' 'bottom'; }
 
-main {
-  background-color: #D8D8D8; }
+button {
+  max-width: 80%;
+  min-width: 40%;
+  display: inline;
+  height: auto;
+  align-content: center;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+  background-color: #dc5884;
+  border: none; }
+
+#index.invisible {
+  display: none; }
+
+#index {
+  display: block; }
+
+#amount {
+  display: none; }
+
+#size {
+  display: none; }
+
+#timere {
+  display: none; }
+
+#clock {
+  display: none; }
+
+#amount.visible {
+  display: block; }
+
+#size.visible {
+  display: block; }
+
+#timere.visible {
+  display: block; }
+
+#clock.visible {
+  display: block; }
+
+#time1 {
+  display: none; }
+
+#time2 {
+  display: none; }
+
+#time3 {
+  display: none; }
+
+#time4 {
+  display: none; }
+
+#time5 {
+  display: none; }
+
+#time6 {
+  display: none; }
+
+#time1.visible {
+  display: block; }
+
+#time2.visible {
+  display: block; }
+
+#time3.visible {
+  display: block; }
+
+#time4.visible {
+  display: block; }
+
+#time5.visible {
+  display: block; }
+
+#time6.visible {
+  display: block; }
+
+.backgroundbody {
+  height: 100vh; }
+
+.amount-page {
+  height: 100vh; }
+
+.size-page {
+  height: 100vh; }
+
+.grid-3r {
+  height: 100vh; }
+
+.clock_page {
+  height: 100vh; }
 
 .autumn {
   margin-top: 6%;
@@ -23,48 +120,6 @@ main {
   padding-left: 5%;
   padding-right: 5%;
   text-align: center; }
-
-hr {
-  width: 80%;
-  height: 0.2vh;
-  background-color: black; }
-
-/* button style */
-.button {
-  display: inline-block;
-  border-radius: 4px;
-  background-color: #f4511e;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 1.2em;
-  padding: 20px;
-  width: 40%;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 1%;
-  margin-top: -3%; }
-
-.button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s; }
-
-.button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s; }
-
-.button:hover span {
-  padding-right: 25px; }
-
-.button:hover span:after {
-  opacity: 1;
-  right: 0; }
 
 /* contact page */
 /* map */
