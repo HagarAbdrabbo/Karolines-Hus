@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-$primary-color: #22afd6;
-$second-color: #dc5884;
+$primary-color: #F0F0F0;
+$second-color: #f2702e;
 
 * {
     margin: 0;
@@ -12,95 +12,54 @@ $second-color: #dc5884;
 body {
     font-family: 'Montserrat';
     background-color: $primary-color;
-    height: 100vh;
-    display: grid;
-    grid-template-rows: 1fr 4fr 2fr;
-    grid-template-areas: 'header' 'main' 'bottom';
+    height: auto;
+    max-width: 100%;
+    margin: 1%;
+   
 }
 
 button {
-    max-width: 80%;
-    min-width: 40%;
-    display: inline;
-    height: auto;
-    align-content: center;
-    border-radius: 5px;
-    display: block;
-    margin: auto;
-    background-color: $second-color;
-    border: none;
+    display: inline-block;
+  border-radius: 4px;
+  background-color: $second-color;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 1.2em;
+  padding: 20px;
+  width: 40%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 1%;
+  margin-top: -3%;    
 }
 
-
-
-#index.invisible {
-    display: none;
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
 }
 
-#index{
-    display: block;
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
 }
 
-#amount{
-    display: none;
+button:hover span {
+  padding-right: 25px;
 }
 
-#size{
-    display: none;
-}
+button:hover span:after {
+  opacity: 1;
+  right: 0;
 
-#timere{
-    display: none;
-}
-
-#clock{
-    display: none;
-}
-
-#amount.visible {
-    display: block;
-}
-
-#size.visible {
-    display: block;
-}
-
-#timere.visible {
-    display: block;
-}
-
-#clock.visible {
-    display: block;
-}
-#time1{display: none;}
-#time2{display: none;}
-#time3{display: none;}
-#time4{display: none;}
-#time5{display: none;}
-#time6{display: none;}
-#time1.visible{display: block;}
-#time2.visible{display: block;}
-#time3.visible{display: block;}
-#time4.visible{display: block;}
-#time5.visible{display: block;}
-#time6.visible{display: block;}
-
-.backgroundbody {
-    height: 100vh;
-}
-
-.amount-page {
-    height: 100vh
-}
-
-.size-page {
-    height: 100vh
-}
-
-.grid-3r {
-    height: 100vh
-}
-
-.clock_page {
-    height: 100vh
+    hr{
+    width: 80%;
+    height: 0.2vh;
+    background-color: black;
 }
