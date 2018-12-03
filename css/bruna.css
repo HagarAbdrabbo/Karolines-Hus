@@ -1,135 +1,63 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
-* {
-  margin: 0;
-  padding: 0;
-  color: white; }
+/*
+Error: Invalid CSS after "}": expected "}", was ""
+        on line 65 of C:/Users/Hager Hamdy/Documents/GitHub/Karolines-Hus/css/global.scss
+        from line 1 of C:\Users\Hager Hamdy\Documents\GitHub\Karolines-Hus\css\bruna.scss
 
-body {
-  font-family: 'Montserrat';
-  background-color: #22afd6;
-  height: 100vh;
-  display: grid;
-  grid-template-rows: 1fr 4fr 2fr;
-  grid-template-areas: 'header' 'main' 'bottom'; }
+60: 
+61:     hr{
+62:     width: 80%;
+63:     height: 0.2vh;
+64:     background-color: black;
+65: }
 
-button {
-  max-width: 80%;
-  min-width: 40%;
-  display: inline;
-  height: auto;
-  align-content: center;
-  border-radius: 5px;
-  display: block;
-  margin: auto;
-  background-color: #dc5884;
-  border: none; }
-
-#index.invisible {
-  display: none; }
-
-#index {
-  display: block; }
-
-#amount {
-  display: none; }
-
-#size {
-  display: none; }
-
-#timere {
-  display: none; }
-
-#clock {
-  display: none; }
-
-#amount.visible {
-  display: block; }
-
-#size.visible {
-  display: block; }
-
-#timere.visible {
-  display: block; }
-
-#clock.visible {
-  display: block; }
-
-#time1 {
-  display: none; }
-
-#time2 {
-  display: none; }
-
-#time3 {
-  display: none; }
-
-#time4 {
-  display: none; }
-
-#time5 {
-  display: none; }
-
-#time6 {
-  display: none; }
-
-#time1.visible {
-  display: block; }
-
-#time2.visible {
-  display: block; }
-
-#time3.visible {
-  display: block; }
-
-#time4.visible {
-  display: block; }
-
-#time5.visible {
-  display: block; }
-
-#time6.visible {
-  display: block; }
-
-.backgroundbody {
-  height: 100vh; }
-
-.amount-page {
-  height: 100vh; }
-
-.size-page {
-  height: 100vh; }
-
-.grid-3r {
-  height: 100vh; }
-
-.clock_page {
-  height: 100vh; }
-
-.autumn {
-  margin-top: 6%;
-  text-align: center; }
-
-.scabiosa {
-  width: 100%;
-  margin: 0;
-  height: 35vh; }
-
-.calender-p {
-  margin-top: 1%;
-  padding: 4%;
-  padding-left: 5%;
-  padding-right: 5%;
-  text-align: center; }
-
-/* contact page */
-/* map */
-ul {
-  list-style: none; }
-
-#map {
-  height: 40vh;
-  /* The height is 400 pixels */
-  width: 100%;
-  /* The width is the width of the web page */ }
-
-/*# sourceMappingURL=bruna.css.map */
+Backtrace:
+C:/Users/Hager Hamdy/Documents/GitHub/Karolines-Hus/css/global.scss:65
+C:\Users\Hager Hamdy\Documents\GitHub\Karolines-Hus\css\bruna.scss:1
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:679:in `block'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:670:in `ruleset'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:321:in `to_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:327:in `block in visit_import'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:88:in `block in with_import'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:88:in `with_import'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:20:in `render'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:290:in `render'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:400:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:22:in `load'
+C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"}\": expected \"}\", was \"\"\A         on line 65 of C:/Users/Hager Hamdy/Documents/GitHub/Karolines-Hus/css/global.scss\A         from line 1 of C:\Users\Hager Hamdy\Documents\GitHub\Karolines-Hus\css\bruna.scss\A \A 60: \A 61:     hr{\A 62:     width: 80%;\A 63:     height: 0.2vh;\A 64:     background-color: black;\A 65: }"; }
