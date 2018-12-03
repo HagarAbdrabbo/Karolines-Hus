@@ -15,3 +15,18 @@ function initMap() {
   // The marker, positioned at Uluru
   var marker = new google.maps.Marker({position: uluru, map: map});
 }
+
+// drop down menue for the mobile virsion.
+let burger = document.querySelector("#burger-menu");
+let nav = document.querySelector("#mobile-nav");
+
+
+burger.addEventListener("click", () => {
+    nav.classList.add("visible");    
+     console.log("Nav appered");
+      });
+   
+  /*  cancel1.addEventListener("click", () => {
+        modal1.classList.remove("visible");
+    console.log("close eggciting");
+    });  */

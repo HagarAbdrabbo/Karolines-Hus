@@ -1,10 +1,47 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 body {
   font-family: 'Montserrat';
-  background-color: #F0F0F0;
   height: auto;
   max-width: 100%;
   margin: 1%; }
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: white; }
+  header img {
+    max-width: 70%;
+    margin: 7%; }
+  header i {
+    font-size: 2.5em;
+    margin-top: 7%;
+    margin-left: 60%; }
+  header nav {
+    display: none;
+    position: fixed;
+    top: 10%;
+    left: 2%;
+    right: 2%;
+    background-color: black;
+    width: 95%; }
+  header ul {
+    padding: 0;
+    margin-right: 5%; }
+  header li {
+    color: #f2702e;
+    padding: 3.5%;
+    font-size: 1.3em;
+    text-align: center; }
+  header a {
+    text-decoration: none; }
+  header nav.visible {
+    display: block; }
+
+.desktop-nav {
+  display: none; }
+
+main {
+  background-color: #F0F0F0; }
 
 button {
   display: inline-block;
@@ -73,5 +110,3 @@ ul {
   /* The height is 400 pixels */
   width: 100%;
   /* The width is the width of the web page */ }
-
-/*# sourceMappingURL=bruna.css.map */

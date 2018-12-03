@@ -13,18 +13,34 @@
      <link rel="stylesheet" href="css/bruna.css"> 
   <link rel="stylesheet" href="css/hagar.css">
   <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 
 <body>
   <header>
     <!--- logo img --->
-   <img>
-   <!-- starting the navigation -->
-   <nav>
+   <img src="img/logo_karolineshus_web.webp" alt="karolines-Hus">
+   <!-- starting the mobile navigation -->
+   <section class="mobile-nav">
+    <i id="burger-menu" class="fas fa-bars"></i>
+     <nav id="mobile-nav">
       <ul>
-          <li>Artists</li>
-          <li>About Us</li>
-          <li>Contact</li>
+          <a href="artist.html"><li>Artists</li></a>
+          <a href="exhibition.html"><li>Exhibitions</li></a>
+          <a href="about.html"><li>About Us</li></a>
+          <a href="contact.html"><li>Contact</li></a>
+       </ul>     
+   </nav>
+   </section>
+      <!-- starting the desktop navigation -->
+
+   <nav class="desktop-nav">
+      <ul>
+          <a href="artist.html"><li>Artists</li></a>
+          <a href="exhibition.html"><li>Exhibitions</li></a>
+          <a href="about.html"><li>About Us</li></a>
+          <a href="contact.html"><li>Contact</li></a>
        </ul>     
    </nav>
   </header>
