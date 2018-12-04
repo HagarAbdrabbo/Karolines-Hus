@@ -108,7 +108,8 @@ footer {
 
 .artist-mobile {
   padding-bottom: 3%;
-  padding-top: 3%; }
+  padding-top: 3%;
+  margin-top: 5%; }
 
 .artist {
   text-align: center;
@@ -116,17 +117,17 @@ footer {
   .artist img {
     max-width: 100%; }
   .artist ul {
-    padding: 2%; }
+    padding: 2%;
+    margin-bottom: 10%; }
   .artist li {
     padding: 1%;
     font-size: 1.5em; }
 
 .about-page {
-  text-align: center;
-  padding-top: 9%; }
+  text-align: justify;
+  padding-top: 9%;
+  margin-top: 5%; }
   .about-page img {
     max-width: 100%; }
   .about-page p {
     padding: 3%; }
-
-/*# sourceMappingURL=hagar.css.map */
