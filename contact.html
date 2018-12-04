@@ -80,12 +80,25 @@
    <h2 class="contact-title">Send us an email</h2> 
    <p></p>  
  <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+     
+<label for="name">     
 Full Name:
-<input type="text" class="name" name="name" placeholder="Name..."><br><br>
+<input type="text" id="name" class="name" name="name" placeholder="Name...">
+     </label><br><br>
+     
+<label for="email">     
 E-mail:
-<input type="email" class="email name" name="mail" placeholder="Email..."><br><br>
+<input type="email" id="email" class="email name" name="mail" placeholder="Email...">
+     </label><br><br>
+     
+<label for="comment">     
 Comment:
-    <textarea name="message" rows="10"></textarea>  <br><br>
+    <input type="text" name="message" id="comment" class="comment" placeholder="Comment...">
+    
+    <!--
+    <textarea name="message" id="comment" rows="10"></textarea> -->
+    
+     </label><br><br>
      
       <button class="button" style="vertical-align:middle"><span>Submit</span></button>
 </form>
