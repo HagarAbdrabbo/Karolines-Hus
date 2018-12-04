@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
-@import url('https://fonts.googleapis.com/css?family=Rajdhani');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC');
 
 
 $primary-color: #F0F0F0;
@@ -7,6 +7,7 @@ $second-color: #f2702e;
 
 
 body {
+    text-align: center;
     height: auto;
     max-width: 100%;
     margin: 1%;  
@@ -120,7 +121,7 @@ hr{
 }
 
 p{
-    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
     font-weight: bolder;
     font-size: 1.2em;
 }

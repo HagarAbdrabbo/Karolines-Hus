@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light");
-@import url("https://fonts.googleapis.com/css?family=Rajdhani");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC");
 body {
+  text-align: center;
   height: auto;
   max-width: 100%;
   margin: 1%; }
@@ -90,7 +91,7 @@ hr {
   background-color: black; }
 
 p {
-  font-family: 'Rajdhani', sans-serif;
+  font-family: 'Noto Sans TC', sans-serif;
   font-weight: bolder;
   font-size: 1.2em; }
 
@@ -131,3 +132,5 @@ footer {
     max-width: 100%; }
   .about-page p {
     padding: 3%; }
+
+/*# sourceMappingURL=hagar.css.map */
