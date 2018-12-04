@@ -182,11 +182,30 @@ footer {
     font-size: 1.5em; }
 
 .about-page {
-  text-align: justify;
-  padding-top: 9%; }
+  text-align: justify; }
+  .about-page h2 {
+    text-align: center;
+    padding-top: 3%; }
   .about-page img {
     max-width: 100%; }
   .about-page p {
     padding: 3%; }
 
-/*# sourceMappingURL=hagar.css.map */
+@media only screen and (min-width: 768px) {
+  .artist-mobile {
+    display: none; }
+
+  .artist-desktop {
+    display: block; }
+    .artist-desktop img {
+      max-width: 100%;
+      margin-left: 3%; }
+    .artist-desktop button {
+      margin-top: 10%; }
+    .artist-desktop h2 {
+      padding-top: 3%; }
+
+  .artist-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 3%; } }
