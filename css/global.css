@@ -6,6 +6,12 @@ body {
   max-width: 100%;
   margin: 1%; }
 
+.desktop-nav {
+  display: none; }
+
+.search-bar {
+  display: none; }
+
 header {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -40,11 +46,9 @@ header {
   header nav.visible {
     display: block; }
 
-.desktop-nav {
-  display: none; }
-
 main {
-  background-color: #F0F0F0; }
+  background-color: #F0F0F0;
+  margin-top: 5%; }
 
 button {
   display: inline-block;
@@ -104,4 +108,48 @@ footer {
   height: auto;
   font-size: 0.7em; }
 
-/*# sourceMappingURL=global.css.map */
+@media only screen and (max-width: 768px) {
+  .mobile-nav {
+    display: none; }
+
+  .search-bar {
+    display: block; }
+
+  .desktop-nav {
+    display: block;
+    background-color: white;
+    position: relative; }
+    .desktop-nav ul {
+      display: flex;
+      justify-content: space-around;
+      font-size: 0.8em;
+      margin: 6% 0 0 0; }
+    .desktop-nav li {
+      padding: 3%; }
+
+  header {
+    grid-template-columns: 1fr 2fr 1fr; }
+    header img {
+      max-width: 70%;
+      margin-left: 0;
+      padding-top: 8%;
+      margin-bottom: 5%; }
+    header section {
+      margin-top: 13%;
+      display: flex;
+      justify-content: space-around;
+      margin-left: 20%; }
+    header input {
+      max-width: 50%;
+      padding: 0.5% 2% 0.5% 2%;
+      margin-right: -20%; }
+    header button {
+      width: 4vw;
+      height: 4vh;
+      padding: 0;
+      margin-top: -1%; }
+    header i {
+      font-size: 0.7em;
+      text-align: center;
+      margin-left: 0;
+      margin-top: -5%; } }
