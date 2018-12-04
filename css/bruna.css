@@ -255,7 +255,7 @@ input {
 .comment {
   padding-bottom: 40%;
   margin-left: 1%;
-  padding-left: 3%; }
+  padding-left: 2.5%; }
 
 /*
 textarea{
@@ -266,5 +266,37 @@ textarea{
 /* index page */
 .index-section {
   padding-top: 1%; }
+
+@media only screen and (min-width: 768px) {
+  .scabiosa {
+    height: 50vh; }
+
+  .calender-p {
+    padding-left: 12%;
+    padding-right: 12%; }
+
+  .exh-title2 {
+    padding-top: 2%; }
+
+  /* contact page */
+  .contact-info {
+    padding-left: 32%; }
+
+  .hours {
+    padding-left: 26%; }
+
+  /* map */
+  #map {
+    height: 50vh; }
+
+  .contact-title {
+    padding-top: 1%; }
+
+  /* form */
+  form {
+    margin-left: 15%; }
+
+  .email {
+    margin-left: 4.5%; } }
 
 /*# sourceMappingURL=bruna.css.map */
