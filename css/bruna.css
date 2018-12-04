@@ -19,11 +19,11 @@ header {
   header img {
     max-width: 80%;
     margin-left: 7%;
-    padding-top: 15%;
+    padding-top: 10%;
     margin-bottom: 1%; }
   header i {
     font-size: 3em;
-    margin-top: 16%;
+    margin-top: 10%;
     margin-left: 60%; }
   header nav {
     display: none;
@@ -48,7 +48,7 @@ header {
 
 main {
   background-color: #F0F0F0;
-  margin-top: 5%; }
+  margin-top: 3%; }
 
 button {
   display: inline-block;
@@ -108,7 +108,7 @@ footer {
   height: auto;
   font-size: 0.7em; }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
   .mobile-nav {
     display: none; }
 
