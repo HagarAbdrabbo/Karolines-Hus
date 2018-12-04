@@ -15,36 +15,37 @@ body {
 header {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: white; }
+  background-color: white;
+  margin-bottom: -4%; }
   header img {
     max-width: 80%;
     margin-left: 7%;
-    padding-top: 10%;
-    margin-bottom: 1%; }
+    padding-top: 10%; }
   header i {
     font-size: 3em;
     margin-top: 10%;
     margin-left: 60%; }
-  header nav {
-    display: none;
-    position: fixed;
-    top: 10%;
-    left: 2%;
-    right: 2%;
-    background-color: black;
-    width: 95%; }
-  header ul {
-    padding: 0;
-    margin-right: 5%; }
-  header li {
-    color: #f2702e;
-    padding: 3.5%;
-    font-size: 1.3em;
-    text-align: center; }
-  header a {
-    text-decoration: none; }
-  header nav.visible {
-    display: block; }
+
+.mobile-nav nav {
+  display: none;
+  position: fixed;
+  top: 10%;
+  left: 2%;
+  right: 2%;
+  background-color: black;
+  width: 95%; }
+.mobile-nav ul {
+  padding: 0;
+  margin-right: 5%; }
+.mobile-nav li {
+  color: #f2702e;
+  padding: 3.5%;
+  font-size: 1.3em;
+  text-align: center; }
+.mobile-nav a {
+  text-decoration: none; }
+.mobile-nav nav.visible {
+  display: block; }
 
 main {
   background-color: #F0F0F0;
@@ -117,13 +118,12 @@ footer {
 
   .desktop-nav {
     display: block;
-    background-color: white;
     position: relative; }
     .desktop-nav ul {
       display: flex;
       justify-content: space-around;
-      font-size: 0.8em;
-      margin: 6% 0 0 0; }
+      font-size: 1em;
+      margin: 7% 0 0 0; }
     .desktop-nav li {
       padding: 3%; }
 
@@ -134,11 +134,6 @@ footer {
       margin-left: 0;
       padding-top: 8%;
       margin-bottom: 5%; }
-    header section {
-      margin-top: 13%;
-      display: flex;
-      justify-content: space-around;
-      margin-left: 20%; }
     header input {
       max-width: 50%;
       padding: 0.5% 2% 0.5% 2%;
@@ -152,13 +147,27 @@ footer {
       font-size: 0.7em;
       text-align: center;
       margin-left: 0;
-      margin-top: -5%; } }
+      margin-top: -5%; }
+    header a {
+      text-decoration: none;
+      color: #f2702e; }
+
+  main {
+    margin: 0 2% 0 2%; }
+
+  .search-bar {
+    margin-top: 13%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20%; }
+
+  footer {
+    font-size: 0.6em; } }
 /* exhibition page */
 .exh-title {
   padding-top: 6%; }
 
 .autumn {
-  margin-top: 6%;
   text-align: center; }
 
 .scabiosa {
@@ -189,7 +198,6 @@ ul {
 
 /* contact page */
 .contact-title {
-  margin-top: 8%;
   text-align: center; }
 
 .contact {
@@ -258,3 +266,5 @@ textarea{
 /* index page */
 .index-section {
   padding-top: 1%; }
+
+/*# sourceMappingURL=bruna.css.map */

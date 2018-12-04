@@ -24,12 +24,12 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: white;
+    margin-bottom: -4%;
    
     img{ 
         max-width: 80%;
         margin-left: 7%;
         padding-top: 10%;
-        margin-bottom: 1%;
     }
     
     i {
@@ -37,6 +37,11 @@ header {
     margin-top: 10%;
     margin-left: 60%;
     }
+    
+   
+    
+}
+.mobile-nav { 
     
     nav {
         display: none;
@@ -66,10 +71,7 @@ header {
     
     nav.visible {
         display: block;
-    }
-    
-}
-
+    }}
 
 main { 
     background-color: $primary-color;
@@ -149,13 +151,12 @@ footer{
     .search-bar {display: block;}
 
      .desktop-nav{display: block;
-    background-color: white;
          position: relative;
      
          ul {display:flex;
         justify-content: space-around;
-        font-size: 0.8em;
-        margin: 6% 0 0 0;
+        font-size: 1em;
+        margin: 7% 0 0 0;
     }
         
         li {padding:3%}
@@ -166,11 +167,6 @@ footer{
          margin-left:0;
         padding-top: 8%;
         margin-bottom: 5%;}
-        section{margin-top: 13%;
-            display: flex;
-            justify-content: space-around;
-         margin-left: 20%;
-        }
         
         input {max-width: 50%;
         padding: 0.5% 2% 0.5% 2%;
@@ -185,15 +181,26 @@ footer{
         text-align: center;
         margin-left: 0;
         margin-top: -5%;}
+        
+        a {
+            text-decoration: none;
+            color: $second-color;}
     }
- 
     
-    
-   
+    main {
+        margin: 0 2% 0 2%;
         
-      
+    }
         
+  .search-bar {margin-top: 13%;
+            display: flex;
+            justify-content: space-around;
+         margin-left: 20%;
+        }    
         
+    footer{
+        font-size: 0.6em;
+    }    
         
    
     
