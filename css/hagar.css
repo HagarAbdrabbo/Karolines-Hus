@@ -196,10 +196,11 @@ footer {
     display: none; }
 
   .artist-desktop {
-    display: block; }
+    display: block;
+    margin-left: 3%;
+    margin-right: 3%; }
     .artist-desktop img {
-      max-width: 100%;
-      margin-left: 3%; }
+      max-width: 100%; }
     .artist-desktop button {
       margin-top: 10%; }
     .artist-desktop h2 {
@@ -209,5 +210,3 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-bottom: 3%; } }
-
-/*# sourceMappingURL=hagar.css.map */
