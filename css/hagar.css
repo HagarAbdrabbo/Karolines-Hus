@@ -236,5 +236,18 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-bottom: 3%; } }
+@media only screen and (min-width: 1200px) {
+  .artist-desktop h2 {
+    padding-top: 1%; }
 
-/*# sourceMappingURL=hagar.css.map */
+  .artist-page-title {
+    padding-top: 10%; }
+
+  .graphic-img {
+    max-width: 150%; }
+
+  .about-page {
+    margin-left: 5%;
+    margin-right: 5%; }
+    .about-page img {
+      margin-left: 8%; } }

@@ -49,3 +49,18 @@
     padding-bottom: 3%;}
     
 }
+
+@media only screen and (min-width:1200px){
+    .artist-desktop {
+        h2 {padding-top: 1%;}
+    }
+    
+    .artist-page-title{padding-top: 10%;}
+    .graphic-img {max-width: 150%;}
+    .about-page {
+        margin-left: 5%;
+        margin-right: 5%;
+        img {margin-left: 8%;}
+    }
+    
+}
