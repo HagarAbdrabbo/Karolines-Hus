@@ -230,7 +230,8 @@ ul {
   padding-top: 5%; }
 
 i {
-  font-size: 1em; }
+  font-size: 1em;
+  margin-right: 2%; }
 
 li {
   font-size: 1.2em; }
@@ -293,30 +294,72 @@ textarea{
 .index-section {
   padding-top: 1%; }
 
+.exh-mobile {
+  display: block; }
+
+.exh-desktop {
+  display: none; }
+
 @media only screen and (min-width: 768px) {
-  .scabiosa {
-    height: 50vh; }
+  .exh-mobile {
+    display: none; }
 
-  .calender-p {
-    padding-left: 12%;
-    padding-right: 12%; }
+  .exh-desktop {
+    display: block;
+    margin-left: 3%;
+    margin-right: 3; }
+    .exh-desktop img {
+      padding-top: 6%; }
+    .exh-desktop button {
+      margin-left: 75%;
+      width: 50%; }
 
-  .exh-title2 {
-    padding-top: 2%; }
+  .exh2 p {
+    padding-top: 9%; }
+  .exh2 button {
+    margin-top: 3%; }
+
+  .exh {
+    margin: 0 3% 0 -3%; }
+    .exh button {
+      margin-top: 5%; }
+    .exh p {
+      padding-top: 5%; }
+
+  .exh-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
 
   /* contact page */
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5%; }
+    .contact-grid ul {
+      padding: 6%; }
+    .contact-grid h2 {
+      padding-right: 5%; }
+
+  .contact {
+    padding-top: 0; }
+
+  .opening-all {
+    margin-top: 0; }
+
   .contact-info {
-    padding-left: 32%; }
+    margin-left: 2%; }
 
   .hours {
-    padding-left: 26%; }
+    padding-left: 8%; }
 
   /* map */
   #map {
-    height: 50vh; }
-
-  .contact-title {
-    padding-top: 1%; }
+    height: 50vh;
+    width: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-right: auto; }
 
   /* form */
   form {
@@ -326,6 +369,47 @@ textarea{
     margin-left: 4.5%; }
 
   .button-contact {
-    margin-left: 20%; } }
+    margin-left: 25%;
+    padding: 2.5%;
+    width: 30%; } }
+@media only screen and (min-width: 1200px) {
+  .exh-desktop img {
+    width: 90%; }
+
+  .exh2 p {
+    margin-top: 4%;
+    padding: 10%; }
+  .exh2 button {
+    margin-top: 3%; }
+
+  .exh {
+    margin: 0 0 0 -3%; }
+    .exh button {
+      margin-top: 5%; }
+    .exh p {
+      margin-top: 5%;
+      padding: 10%; }
+
+  /* contact page */
+  .contact-info {
+    margin-left: 18%; }
+
+  .hours {
+    padding-left: 23%; }
+
+  .opening-all {
+    margin-right: 5%; }
+
+  /* form */
+  form {
+    margin-left: 23%; }
+
+  .email {
+    margin-left: 3%; }
+
+  .button-contact {
+    margin-left: 25%;
+    padding: 2%;
+    width: 25%; } }
 
 /*# sourceMappingURL=bruna.css.map */
