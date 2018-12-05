@@ -151,6 +151,8 @@ footer {
     header a {
       text-decoration: none;
       color: #f2702e; }
+    header a:hover {
+      color: #B55423; }
 
   main {
     margin: 0 2% 0 2%; }
@@ -187,3 +189,5 @@ footer {
 
   .search-bar {
     margin-top: 11.5%; } }
+
+/*# sourceMappingURL=global.css.map */

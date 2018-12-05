@@ -160,6 +160,7 @@ footer{
     }
         
         li {padding:3%}
+         
     }
     
     header {grid-template-columns: 1fr 2fr 1fr;
@@ -185,7 +186,12 @@ footer{
         a {
             text-decoration: none;
             color: $second-color;}
+        
+         a:hover{ color: #B55423; }
+        
     }
+    
+            
     
     main {
         margin: 0 2% 0 2%;

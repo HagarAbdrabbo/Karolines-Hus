@@ -151,6 +151,8 @@ footer {
     header a {
       text-decoration: none;
       color: #f2702e; }
+    header a:hover {
+      color: #B55423; }
 
   main {
     margin: 0 2% 0 2%; }
@@ -234,3 +236,5 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-bottom: 3%; } }
+
+/*# sourceMappingURL=hagar.css.map */
