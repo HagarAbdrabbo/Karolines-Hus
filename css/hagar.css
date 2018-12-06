@@ -235,19 +235,31 @@ footer {
   .artist-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-bottom: 3%; } }
+    padding-bottom: 3%; }
+
+  .about-page img {
+    width: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .about-page p {
+    margin-left: 4%;
+    margin-right: 4%; } }
 @media only screen and (min-width: 1200px) {
   .artist-desktop h2 {
     padding-top: 1%; }
+  .artist-desktop ul {
+    margin-top: 13%; }
+  .artist-desktop button {
+    margin-left: 33%; }
 
   .artist-page-title {
-    padding-top: 10%; }
+    padding-top: -0.5%; }
 
   .graphic-img {
-    max-width: 150%; }
+    width: 100%;
+    height: 45vh; }
 
-  .about-page {
+  .about-page p {
     margin-left: 5%;
-    margin-right: 5%; }
-    .about-page img {
-      margin-left: 8%; } }
+    margin-right: 5%; } }
