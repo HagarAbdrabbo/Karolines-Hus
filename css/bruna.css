@@ -338,7 +338,8 @@ textarea{
     .contact-grid ul {
       padding: 6%; }
     .contact-grid h2 {
-      padding-right: 5%; }
+      padding-right: 5%;
+      padding-top: 5%; }
 
   .contact {
     padding-top: 0; }
