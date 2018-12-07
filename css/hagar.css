@@ -217,6 +217,18 @@ footer {
   .about-page p {
     padding: 3%; }
 
+.owners {
+  text-align: justify;
+  padding-bottom: 3%; }
+  .owners img {
+    max-width: 70%;
+    margin-top: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .owners p {
+    padding: 5%; }
+
 @media only screen and (min-width: 768px) {
   .artist-mobile {
     display: none; }
@@ -244,7 +256,19 @@ footer {
     margin-right: auto; }
   .about-page p {
     margin-left: 4%;
-    margin-right: 4%; } }
+    margin-right: 4%; }
+
+  .owners article {
+    display: grid;
+    grid-template-columns: 1fr 2fr; }
+  .owners img {
+    max-width: 90%;
+    margin-top: 25%;
+    margin-left: 7%;
+    margin-right: 0; }
+  .owners p {
+    margin-right: 2%;
+    margin-left: 3%; } }
 @media only screen and (min-width: 1200px) {
   .artist-desktop h2 {
     padding-top: 1%; }
@@ -262,4 +286,15 @@ footer {
 
   .about-page p {
     margin-left: 5%;
-    margin-right: 5%; } }
+    margin-right: 5%; }
+
+  .owners p {
+    margin-top: 7%;
+    padding: 0;
+    margin-right: 11%;
+    margin-left: 7%; }
+  .owners img {
+    max-width: 85%;
+    margin-top: 10%; }
+  .owners article {
+    margin-bottom: 2%; } }
