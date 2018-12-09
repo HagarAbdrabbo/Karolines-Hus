@@ -73,19 +73,17 @@ margin-top: 5%;
     
 }
     
-    .owners {
-        article {display: grid;
-        grid-template-columns: 1fr 2fr;}
-        
+    .owners { display: grid;
+        grid-template-columns: 1fr 1fr;
+      margin-right: 4%;
+         margin-left: 4%;
             img {
-    max-width: 90%;
-        margin-top: 25%;
-                margin-left: 7%;
-                margin-right: 0;
+    max-width: 80%;
+
     }
-        p {margin-right: 2%;
-        margin-left: 3%;}
-    }
+        p {
+        font-size: 1em;}
+    } 
     
 
 }
@@ -111,11 +109,10 @@ margin-top: 5%;
     .owners{
         p {margin-top: 7%;
             padding: 0;
-        margin-right: 11%;
+        margin-right: 7%;
         margin-left: 7%;}
-        img {max-width: 85%;
+        img {max-width:70%;
         margin-top: 10%;}
-        article {margin-bottom: 2%;}
     }
 }
 

@@ -258,17 +258,15 @@ footer {
     margin-left: 4%;
     margin-right: 4%; }
 
-  .owners article {
+  .owners {
     display: grid;
-    grid-template-columns: 1fr 2fr; }
-  .owners img {
-    max-width: 90%;
-    margin-top: 25%;
-    margin-left: 7%;
-    margin-right: 0; }
-  .owners p {
-    margin-right: 2%;
-    margin-left: 3%; } }
+    grid-template-columns: 1fr 1fr;
+    margin-right: 4%;
+    margin-left: 4%; }
+    .owners img {
+      max-width: 80%; }
+    .owners p {
+      font-size: 1em; } }
 @media only screen and (min-width: 1200px) {
   .artist-desktop h2 {
     padding-top: 1%; }
@@ -291,12 +289,8 @@ footer {
   .owners p {
     margin-top: 7%;
     padding: 0;
-    margin-right: 11%;
+    margin-right: 7%;
     margin-left: 7%; }
   .owners img {
-    max-width: 85%;
-    margin-top: 10%; }
-  .owners article {
-    margin-bottom: 2%; } }
-
-/*# sourceMappingURL=hagar.css.map */
+    max-width: 70%;
+    margin-top: 10%; } }
