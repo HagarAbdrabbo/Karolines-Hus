@@ -26,6 +26,10 @@ burger.addEventListener("click", () => {
      console.log("Nav appered");
       });
    
+  /*  cancel1.addEventListener("click", () => {
+    modal1.classList.remove("visible");
+    console.log("close eggciting");
+    });  */
 
 
 // featch the sculptor page
@@ -53,16 +57,35 @@ burger.addEventListener("click", () => {
       }
     }
 
+// featch the artist page
+
+  fetch('js/main.json')
+    .then(function(response) {
+      return response.json();
+    })
+    .then(json => {
+      console.log(json);
+      appendPersons(json.persons);
+    });
+
+  // Adds persons to the DOM by giving parameter, persons
+  function appendPersons(persons) {
+    for (let i = 0; i < persons.length; i++) { // looping trough all persons
+      let person = persons[i];
+      console.log(person);
+      //creating person data, HTML tags and adding to the DOM, the element #gridPersons
+      doc.querySelector("#gridPersons").innerHTML += `
+      <article class="gridItem">
+      <h4>${person.title}</h4>
+      <p>${person.excerpt}</p>
+      </article>
+      `;
+    }
+  }
   
 
-  /*  cancel1.addEventListener("click", () => {
-        modal1.classList.remove("visible");
-    console.log("close eggciting");
-    });  */
-
 /* carasel */
-var slideIndex = 0;
-showSlides();
+let showSlides();
 
 function showSlides() {
     let i;
