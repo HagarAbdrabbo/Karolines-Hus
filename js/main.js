@@ -26,6 +26,35 @@ burger.addEventListener("click", () => {
      console.log("Nav appered");
       });
    
+
+
+// featch the sculptor page
+
+  fetch('http://karolineshus.dk/wp-json/wp/v2/posts?categories=10&_embed')
+    .then(function(response) {
+      return response.json();
+    })
+    .then(function(json) {
+      console.log(json);
+      appendPosts(json);
+    });
+
+
+    function appendPosts(posts) {
+      for (let i = 0; i < posts.length; i++) {
+        let post = posts[i];
+        console.log(post);
+        document.querySelector('#sculptor-page').innerHTML += `
+          <article class="sculptor-page">
+            <h3>${post.title.rendered}</h3>
+
+          </article>
+        `;
+      }
+    }
+
+  
+
   /*  cancel1.addEventListener("click", () => {
         modal1.classList.remove("visible");
     console.log("close eggciting");
