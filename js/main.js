@@ -58,16 +58,17 @@ burger.addEventListener("click", () => {
       }
     }
 
-doc.querySelector("#sculptor-page").innerHTML += html;
+document.querySelector("#sculptor-page").innerHTML += html;
   
 
-  function getFeaturedImageUrl(client) {
+  function getFeaturedImageUrl(post) {
     let imageUrl = "";
     if (post._embedded['wp:featuredmedia']) {
       imageUrl = post._embedded['wp:featuredmedia'][0].source_url;
     }
     return imageUrl;
   }
+
 
 /* carasel */
 let slideIndex = 0;
