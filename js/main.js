@@ -45,18 +45,29 @@ burger.addEventListener("click", () => {
 
 
     function appendPosts(posts) {
-      for (let i = 0; i < posts.length; i++) {
+        let html = "";
+        for (let i = 0; i < posts.length; i++) {
         let post = posts[i];
         console.log(post);
         document.querySelector('#sculptor-page').innerHTML += `
           <article class="sculptor-page">
             <h3>${post.title.rendered}</h3>
-
+<img src="${getFeaturedImageUrl(post)}" alt="${post.title.rendered}">
           </article>
         `;
       }
     }
 
+doc.querySelector("#sculptor-page").innerHTML += html;
+  
+
+  function getFeaturedImageUrl(client) {
+    let imageUrl = "";
+    if (post._embedded['wp:featuredmedia']) {
+      imageUrl = post._embedded['wp:featuredmedia'][0].source_url;
+    }
+    return imageUrl;
+  }
 
 /* carasel */
 let slideIndex = 0;
