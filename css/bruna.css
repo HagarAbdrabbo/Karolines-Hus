@@ -3,6 +3,10 @@
 h1 {
   font-family: 'Shadows Into Light', cursive; }
 
+h4 {
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center; }
+
 body {
   text-align: center;
   height: auto;
@@ -520,5 +524,3 @@ input {
 
   .opening-all ul {
     margin-left: 10%; } }
-
-/*# sourceMappingURL=bruna.css.map */

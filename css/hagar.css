@@ -3,6 +3,10 @@
 h1 {
   font-family: 'Shadows Into Light', cursive; }
 
+h4 {
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center; }
+
 body {
   text-align: center;
   height: auto;
@@ -222,19 +226,22 @@ a {
   .about-page img {
     max-width: 100%; }
   .about-page p {
-    padding: 3%; }
+    padding: 3% 7% 3% 7%; }
 
 .owners {
   text-align: justify;
   padding-bottom: 3%; }
   .owners img {
     max-width: 70%;
-    margin-top: 5%;
+    margin-top: 10%;
     display: block;
     margin-left: auto;
     margin-right: auto; }
   .owners p {
-    padding: 5%; }
+    margin: -3% 7% 0 7%; }
+  .owners h4 {
+    font-size: 1.5em;
+    margin-top: 2%; }
 
 .mutual-Artist-page img {
   width: 100%;
@@ -283,7 +290,7 @@ a {
     margin-right: 4%;
     margin-left: 4%; }
     .owners img {
-      max-width: 80%; }
+      max-width: 60%; }
     .owners p {
       font-size: 1em; }
 
@@ -321,7 +328,7 @@ a {
     margin-right: 7%;
     margin-left: 7%; }
   .owners img {
-    max-width: 70%;
+    max-width: 50%;
     margin-top: 10%; }
 
   .mutual-Artist-main h1 {
@@ -330,5 +337,3 @@ a {
   .mutual-Artist-page img {
     max-width: 80%;
     height: 40vh; } }
-
-/*# sourceMappingURL=hagar.css.map */

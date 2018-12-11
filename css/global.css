@@ -3,6 +3,10 @@
 h1 {
   font-family: 'Shadows Into Light', cursive; }
 
+h4 {
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center; }
+
 body {
   text-align: center;
   height: auto;
@@ -193,5 +197,3 @@ footer {
 
   .search-bar {
     margin-top: 11.5%; } }
-
-/*# sourceMappingURL=global.css.map */
