@@ -287,7 +287,7 @@ a {
     .owners p {
       font-size: 1em; }
 
-  .mutual-Artist-main {
+  .mutual-Artist-grid {
     display: grid;
     grid-template-columns: 1fr 1fr; }
 
@@ -320,3 +320,5 @@ a {
   .owners img {
     max-width: 70%;
     margin-top: 10%; } }
+
+/*# sourceMappingURL=hagar.css.map */
