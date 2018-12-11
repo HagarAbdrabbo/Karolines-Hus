@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light");
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC");
+h1 {
+  font-family: 'Shadows Into Light', cursive; }
+
 body {
   text-align: center;
   height: auto;
@@ -233,6 +236,18 @@ a {
   .owners p {
     padding: 5%; }
 
+.mutual-Artist-page img {
+  width: 100%;
+  height: 30vh; }
+.mutual-Artist-page h3 {
+  font-size: 1.5em;
+  margin-bottom: 2%; }
+
+.mutual-Artist-main {
+  padding-bottom: 5%;
+  margin-top: 5%;
+  padding-top: 2%; }
+
 @media only screen and (min-width: 768px) {
   .artist-mobile {
     display: none; }
@@ -270,7 +285,14 @@ a {
     .owners img {
       max-width: 80%; }
     .owners p {
-      font-size: 1em; } }
+      font-size: 1em; }
+
+  .mutual-Artist-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+
+  .mutual-Artist-page img {
+    max-width: 80%; } }
 @media only screen and (min-width: 1200px) {
   .artist-desktop h2 {
     padding-top: 1%; }
@@ -298,5 +320,3 @@ a {
   .owners img {
     max-width: 70%;
     margin-top: 10%; } }
-
-/*# sourceMappingURL=hagar.css.map */

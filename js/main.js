@@ -26,10 +26,43 @@ burger.addEventListener("click", () => {
      console.log("Nav appered");
       });
    
-  /*  cancel1.addEventListener("click", () => {
-    modal1.classList.remove("visible");
-    console.log("close eggciting");
-    });  */
+
+// featch the painter page
+
+  fetch('http://karolineshus.dk/wp-json/wp/v2/posts?categories=9&_embed')
+    .then(function(response) {
+      return response.json();
+    })
+    .then(function(json) {
+      console.log(json);
+      appendPainters(json);
+    });
+
+
+    function appendPainters(painters) {
+        let html = "";
+        for (let i = 0; i < painters.length; i++) {
+        let painter = painters[i];
+        console.log(painter);
+        document.querySelector('#painter-page').innerHTML += `
+          <article  class="mutual-Artist-page">
+            <h3>${painter.title.rendered}</h3>
+<img src="${getFeaturedImageUrl(painter)}" alt="${painter.title.rendered}">
+          </article>
+        `;
+      }
+    }
+
+document.querySelector("#painter-page").innerHTML += html;
+  
+
+  function getFeaturedImageUrl(painter) {
+    let imageUrl = "";
+    if (painter._embedded['wp:featuredmedia']) {
+      imageUrl = painter._embedded['wp:featuredmedia'][0].source_url;
+    }
+    return imageUrl;
+  }
 
 
 // featch the sculptor page
@@ -50,7 +83,7 @@ burger.addEventListener("click", () => {
         let post = posts[i];
         console.log(post);
         document.querySelector('#sculptor-page').innerHTML += `
-          <article class="sculptor-page">
+          <article class="mutual-Artist-page" >
             <h3>${post.title.rendered}</h3>
 <img src="${getFeaturedImageUrl(post)}" alt="${post.title.rendered}">
           </article>

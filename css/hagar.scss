@@ -36,9 +36,23 @@ margin-top: 5%;
     margin-right: auto;}
     
     p {padding: 5%;}
+     }
+//Painters-page
+
+
+//Sculptor-page
+.mutual-Artist-page {
     
+    img {width: 100%;
+    height: 30vh;}
     
-    }
+    h3 {font-size: 1.5em;
+    margin-bottom: 2%;}
+}
+.mutual-Artist-main {padding-bottom: 5%;
+margin-top: 5%;
+padding-top: 2%;}
+
 // starting the tablet virsion 
 @media only screen and (min-width:768px){
  
@@ -89,7 +103,13 @@ margin-top: 5%;
         font-size: 1em;}
     } 
     
-
+    .mutual-Artist-main {display:grid;
+    grid-template-columns: 1fr 1fr;}
+    
+    .mutual-Artist-page{
+        img {max-width: 80%;}
+    }
+    
 }
 @media only screen and (min-width:1200px){
     .artist-desktop{
