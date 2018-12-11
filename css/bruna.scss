@@ -119,13 +119,6 @@ input{
    padding-left: 2.5%;
 }
 
-/*
-textarea{
-    margin-left: 2%;
-    width: 50%;
-    border-radius: 20px;
-}*/
-
 /* index page */
 
 .index-section{
@@ -222,6 +215,22 @@ p.border {
   margin: 0 28% 0 28%; 
 }
 
+.susanne{
+    h1{padding-top: 5%;
+    font-size: 2em;}   
+}
+
+.susanne1{
+    h2{
+        margin-bottom: 0%;
+    }
+    
+    p{padding: 4%;
+    padding-left: 8%;
+    padding-right: 8%;
+   text-align: justify;
+    justify-content: all;}
+    }
 
 @media only screen and (min-width:768px) {
     
@@ -354,6 +363,29 @@ p.border {
     .opening-all{
         ul{margin-left: 12%;}
     }
+    
+    
+      /* Artists individual */
+
+p.border {
+  margin: 0 35% 0 35%; 
+}
+
+.susanne{
+    h1{padding-top: 4%;
+    font-size: 2em;}   
+}
+
+.susanne1{
+    h2{
+        margin-bottom: -3%;
+    }
+    
+    p{padding-left: 12%;
+    padding-right: 12%;}
+    }
+    
+    
 }
 
 @media only screen and (min-width: 1200px){
@@ -449,5 +481,16 @@ p.border {
     .opening-all{
         ul{margin-left: 10%;}
     }
+    
+          /* Artists individual */
+
+p.border {
+  margin: 0 45% 0 45%; 
+}
+
+.susanne{
+    h1{padding-top: 2%;
+    font-size: 2em;}   
+}
     
 }
