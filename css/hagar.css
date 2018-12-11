@@ -292,7 +292,10 @@ a {
     grid-template-columns: 1fr 1fr; }
 
   .mutual-Artist-page img {
-    max-width: 80%; } }
+    max-width: 80%;
+    opacity: 1; }
+  .mutual-Artist-page img:hover {
+    opacity: 0.6; } }
 @media only screen and (min-width: 1200px) {
   .artist-desktop h2 {
     padding-top: 1%; }
@@ -319,6 +322,13 @@ a {
     margin-left: 7%; }
   .owners img {
     max-width: 70%;
-    margin-top: 10%; } }
+    margin-top: 10%; }
+
+  .mutual-Artist-main h1 {
+    font-size: 2.2em; }
+
+  .mutual-Artist-page img {
+    max-width: 80%;
+    height: 40vh; } }
 
 /*# sourceMappingURL=hagar.css.map */
