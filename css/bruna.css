@@ -33,26 +33,28 @@ header {
     margin-top: 10%;
     margin-left: 60%; }
 
-.mobile-nav nav {
-  display: none;
-  position: fixed;
-  top: 10%;
-  left: 2%;
-  right: 2%;
-  background-color: black;
-  width: 95%; }
-.mobile-nav ul {
-  padding: 0;
-  margin-right: 5%; }
-.mobile-nav li {
-  color: #f2702e;
-  padding: 3.5%;
-  font-size: 1.3em;
-  text-align: center; }
-.mobile-nav a {
-  text-decoration: none; }
-.mobile-nav nav.visible {
-  display: block; }
+.mobile-nav {
+  z-index: 6; }
+  .mobile-nav nav {
+    display: none;
+    position: fixed;
+    top: 10%;
+    left: 2%;
+    right: 2%;
+    background-color: black;
+    width: 95%; }
+  .mobile-nav ul {
+    padding: 0;
+    margin-right: 5%; }
+  .mobile-nav li {
+    color: #f2702e;
+    padding: 3.5%;
+    font-size: 1.3em;
+    text-align: center; }
+  .mobile-nav a {
+    text-decoration: none; }
+  .mobile-nav nav.visible {
+    display: block; }
 
 main {
   background-color: #F0F0F0;
