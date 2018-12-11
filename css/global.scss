@@ -170,6 +170,32 @@ footer{
          
     }
     
+    .parent-ul {}
+    
+    /* Sub Menu */
+nav ul li.parent ul.child {
+    display: none; /* Hide Sub Menu */
+}
+nav ul li.parent:hover ul.child {
+    display: block; /* Show Sub Menu on Hover */
+    position: absolute;
+    top: 40px;
+    background: #03ADDF;
+}
+
+nav ul li.parent ul.child li {
+    width: 9em;
+    padding: 0;
+}
+nav ul li.parent ul.child li:hover {
+    background: #008FBA;
+}
+nav ul li.parent ul.child li a {
+    display: block;
+}
+    
+    
+    
     header {grid-template-columns: 1fr 2fr 1fr;
         img {max-width: 70%;
          margin-left:0;
@@ -195,11 +221,10 @@ footer{
             color: $second-color;}
         
          a:hover{ color: #B55423; }
-        
-    }
+         }
     
-            
     
+ 
     main {
         margin: 0 2% 0 2%;
         
