@@ -365,6 +365,13 @@ textarea{
 .section-opening {
   display: none; }
 
+/* Artists individual */
+p.border {
+  border-style: solid;
+  border-color: #f2702e;
+  background-color: #f2702e;
+  margin: 0 28% 0 28%; }
+
 @media only screen and (min-width: 768px) {
   .exh-mobile {
     display: none; }
