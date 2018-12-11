@@ -59,7 +59,7 @@ burger.addEventListener("click", () => {
 
 // featch the artist page
 
-  fetch('js/main.json')
+ /* fetch('js/main.json')
     .then(function(response) {
       return response.json();
     })
@@ -82,10 +82,11 @@ burger.addEventListener("click", () => {
       `;
     }
   }
-  
+  */
 
 /* carasel */
-let showSlides();
+let slideIndex = 0;
+showSlides();
 
 function showSlides() {
     let i;
