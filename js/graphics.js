@@ -1,6 +1,6 @@
-// featch the painter page
+// featch the graphic page
 
-  fetch('http://karolineshus.dk/wp-json/wp/v2/posts?categories=12&_embed')
+  fetch('http://karolineshus.dk/wp-json/wp/v2/posts?categories=20&_embed')
     .then(function(response) {
       return response.json();
     })
@@ -22,7 +22,7 @@
           </article>
         `;
       }
-    document.querySelector("#painter-page").innerHTML = html;    
+    document.querySelector("#graphic-page").innerHTML = html;    
     }
 
 
@@ -33,4 +33,3 @@
     }
     return imageUrl;
   }
-

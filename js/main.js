@@ -26,3 +26,6 @@ burger.addEventListener("click", () => {
      console.log("Nav appered");
       });
    
+
+
+
