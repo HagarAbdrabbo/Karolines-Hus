@@ -269,6 +269,18 @@ footer{
         font-size: 0.6em;
     }   
     
+    .template-main{
+    
+    img{
+        margin-top: 2%;
+        max-width: 100%;
+        height: 60vh;}
+    
+    h3{ margin-bottom: 3%;
+        font-size: 2em;}
+}
+
+    
 }
 
 @media only screen and (min-width:1200px) {
@@ -316,4 +328,18 @@ font-size: 1.2em;
 
     
     .search-bar {margin-top: 11.5%;}
+    
+    .template-main{
+    padding: 0 8% 3% 8%;
+    
+
+    
+    img{
+        margin-top: 5%;
+        height: 80vh;}
+    
+    h3{ margin-bottom: 3%;
+        font-size: 2em;}
+}
+
 }

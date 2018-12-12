@@ -211,7 +211,15 @@ footer {
     margin-left: 20%; }
 
   footer {
-    font-size: 0.6em; } }
+    font-size: 0.6em; }
+
+  .template-main img {
+    margin-top: 2%;
+    max-width: 100%;
+    height: 60vh; }
+  .template-main h3 {
+    margin-bottom: 3%;
+    font-size: 2em; } }
 @media only screen and (min-width: 1200px) {
   header img {
     padding-top: 3%; }
@@ -244,7 +252,16 @@ footer {
     margin: 4% 3% 0 3%; }
 
   .search-bar {
-    margin-top: 11.5%; } }
+    margin-top: 11.5%; }
+
+  .template-main {
+    padding: 0 8% 3% 8%; }
+    .template-main img {
+      margin-top: 5%;
+      height: 80vh; }
+    .template-main h3 {
+      margin-bottom: 3%;
+      font-size: 2em; } }
 /* exhibition page */
 .exh-title {
   padding-top: 6%; }
@@ -572,5 +589,3 @@ input {
 
   .opening-all ul {
     margin-left: 10%; } }
-
-/*# sourceMappingURL=bruna.css.map */
