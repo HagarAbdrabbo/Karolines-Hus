@@ -158,44 +158,48 @@ footer{
     .search-bar {display: block;}
 
      .desktop-nav{display: block;
-         position: relative;
-     
-         ul {display:flex;
+         
+ 
+    }
+    
+    
+    /* Main Navigation */
+    .parent-ul {
+        display:flex;
         justify-content: space-around;
         font-size: 1em;
         margin: 7% 0 0 0;
-    }
+        li { padding:3%}
         
-        li {padding:3%}
-         
-    }
-    
-    .parent-ul {}
-    
-    /* Sub Menu */
-nav ul li.parent ul.child {
+         /* Sub Menu */
+        
+        li.parent ul.child {
     display: none; /* Hide Sub Menu */
-}
-nav ul li.parent:hover ul.child {
+            padding: 3%;
+            z-index: 1;
+            width: 20%;
+        }
+        
+        li.parent:hover ul.child {
     display: block; /* Show Sub Menu on Hover */
     position: absolute;
-    top: 40px;
-    background: #03ADDF;
-}
+    top: 12.5%;
+    left: 23%;       
+    background-color: black;}
+        
+     li.parent ul.child li {
+   text-align: center;
+         font-size: 1em;
+    }
 
-nav ul li.parent ul.child li {
-    width: 9em;
-    padding: 0;
-}
-nav ul li.parent ul.child li:hover {
-    background: #008FBA;
-}
-nav ul li.parent ul.child li a {
-    display: block;
-}
+        
+        
+       li.parent ul.child li a {
+    display: block;}  
+        
+    }
     
-    
-    
+        
     header {grid-template-columns: 1fr 2fr 1fr;
         img {max-width: 70%;
          margin-left:0;
@@ -223,7 +227,7 @@ nav ul li.parent ul.child li a {
          a:hover{ color: #B55423; }
          }
     
-    
+ 
  
     main {
         margin: 0 2% 0 2%;
@@ -257,17 +261,34 @@ nav ul li.parent ul.child li a {
         width: 2.3vw;}
     } 
     
+        .parent-ul {
+font-size: 1.2em;
+        max-width: 70%;
+        margin: 5% 0 0 10%;
+        li {padding:1% 10% 1% 10%;}
+        
+         /* Sub Menu */
+        
+        li.parent ul.child {
+            padding: 2%;
+            width: 15%;}
+        
+        li.parent:hover ul.child {
+    left: 22%;
+    top: 13%;}
+        
+     li.parent ul.child li {
+         font-size: 1em;}
+  
+        
+    }
+    
      main {
         margin: 4% 3% 0 3%;
         
     }
     
-    .desktop-nav{
-        ul {font-size: 1.2em;
-        max-width: 70%;
-        margin: 5% 0 0 10%;}
-        li {padding:1% 10% 1% 10%;}
-    }
+
     
     .search-bar {margin-top: 11.5%;}
 }
