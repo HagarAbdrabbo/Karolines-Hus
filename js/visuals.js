@@ -23,10 +23,11 @@ document.addEventListener("DOMContentLoaded", function() {
         let post = posts[i];
         console.log(post);
         html += `
+         <a href="artist.html?artist=${post.slug}">
           <article class="mutual-Artist-page" >
             <h3>${post.title.rendered}</h3>
 <img src="${getFeaturedImageUrl(post)}" alt="${post.title.rendered}">
-          </article>
+          </article></a>
         `;
       }
     document.querySelector("#visual-page").innerHTML = html;    

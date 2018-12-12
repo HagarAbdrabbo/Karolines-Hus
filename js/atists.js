@@ -7,11 +7,12 @@ document.addEventListener("DOMContentLoaded", function() {
 /* artists pages individual */
 
 let urlString = window.location.href;
+    console.log(urlString);
 let url = new URL(urlString);
-let artistSlug = url.searchParams.get("henrik-voldmester");
+let artistSlug = url.searchParams.get("artist");
 console.log(artistSlug);
 
-fetch('http://karolineshus.dk/wp-json/wp/v2/posts?artist.html?artist=henrik-voldmester_embed&${artistSlug}')
+fetch(`http://karolineshus.dk/wp-json/wp/v2/posts?_embed&slug=${artistSlug}`)
 .then(function(response){
     return response.json();
 })
@@ -26,8 +27,18 @@ function appendPosts(posts) {
       console.log(post);
  document.querySelector('#gridPosts').innerHTML += `
   <article class="gridItem">
- <h3>${post.title.rendered}</h3>            <p>${post.content.rendered}</p>
+ <h3>${post.title.rendered}</h3>            <p>${post.excerpt.rendered}</p>
+<img src="${getFeaturedImageUrl(post)}" alt="${post.title.rendered}">
 </article>`;
     }
   }
+    
+     function getFeaturedImageUrl(post) {
+    let imageUrl = "";
+    if (post._embedded['wp:featuredmedia']) {
+      imageUrl = post._embedded['wp:featuredmedia'][0].source_url;
+    }
+    return imageUrl;
+  }
+    
 });

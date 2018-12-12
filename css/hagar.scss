@@ -50,10 +50,22 @@ margin-top: 10%;
     
     h3 {font-size: 1.5em;
     margin-bottom: 2%;}
+    
 }
 .mutual-Artist-main {padding-bottom: 5%;
 margin-top: 5%;
-padding-top: 2%;}
+padding-top: 2%;
+
+        a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    a:hover{
+        color: $second-color;
+    }
+
+}
 
 // starting the tablet virsion 
 @media only screen and (min-width:768px){

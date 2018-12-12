@@ -119,6 +119,23 @@ footer {
   height: auto;
   font-size: 0.7em; }
 
+/*  artist template page */
+.template-main {
+  padding: 0 5% 5% 5%; }
+  .template-main p {
+    text-align: justify; }
+  .template-main img {
+    margin-top: 2%;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .template-main h3 {
+    padding-top: 3%;
+    margin-bottom: -3%;
+    font-size: 2em;
+    font-family: 'Shadows Into Light', cursive; }
+
 @media only screen and (min-width: 768px) {
   .mobile-nav {
     display: none; }
@@ -285,6 +302,11 @@ a {
   padding-bottom: 5%;
   margin-top: 5%;
   padding-top: 2%; }
+  .mutual-Artist-main a {
+    text-decoration: none;
+    color: black; }
+  .mutual-Artist-main a:hover {
+    color: #f2702e; }
 
 @media only screen and (min-width: 768px) {
   .artist-mobile {
@@ -368,3 +390,5 @@ a {
   .mutual-Artist-page img {
     max-width: 80%;
     height: 40vh; } }
+
+/*# sourceMappingURL=hagar.css.map */
