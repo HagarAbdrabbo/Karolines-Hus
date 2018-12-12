@@ -1,3 +1,10 @@
+"use strict";
+document.addEventListener("DOMContentLoaded", function() {
+  // Handler when the DOM is fully loaded
+  console.log("Document ready!");
+
+});
+
 // featch the graphic page
 
   fetch('http://karolineshus.dk/wp-json/wp/v2/posts?categories=20&_embed')
