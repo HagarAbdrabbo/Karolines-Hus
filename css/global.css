@@ -134,7 +134,7 @@ footer {
     display: flex;
     justify-content: space-around;
     font-size: 1em;
-    margin: 7% 0 0 0;
+    margin: 3.5% 0 0 0;
     /* Sub Menu */ }
     .parent-ul li {
       padding: 3%; }
@@ -148,7 +148,7 @@ footer {
       display: block;
       /* Show Sub Menu on Hover */
       position: absolute;
-      top: 12.5%;
+      top: 60px;
       left: 23%;
       background-color: black; }
     .parent-ul li.parent ul.child li {
@@ -219,7 +219,7 @@ footer {
       width: 15%; }
     .parent-ul li.parent:hover ul.child {
       left: 22%;
-      top: 13%; }
+      top: 75px; }
     .parent-ul li.parent ul.child li {
       font-size: 1em; }
 
