@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 // featch the photographers page
 
-  fetch('http://karolineshus.dk/wp-json/wp/v2/posts?categories=24&_embed')
+  fetch('http://karolineshus.dk/wp-json/wp/v2/posts?slug=efteraarsudstilling-22-09-2018-21-10-2018')
     .then(function(response) {
       return response.json();
     })
@@ -23,14 +23,13 @@ document.addEventListener("DOMContentLoaded", function() {
         let post = posts[i];
         console.log(post);
         html += `
-         <a href="artist.html?artist=${post.slug}">
-          <article class="mutual-Artist-page" >
+          <article class="#exhbition-post" >
             <h3>${post.title.rendered}</h3>
-<img src="${getFeaturedImageUrl(post)}" alt="${post.title.rendered}">
-          </article></a>
+            <p>${post.content.rendered}</p>
+          </article>
         `;
       }
-    document.querySelector("#photographer-page").innerHTML = html;    
+    document.querySelector("#exhbition-post").innerHTML = html;    
     }
 
 
