@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
         let post = posts[i];
         console.log(post);
         html += `
-          <article class="#exhbition-post" >
+          <article class="exhbition-post" >
             <h3>${post.title.rendered}</h3>
             <p>${post.content.rendered}</p>
           </article>

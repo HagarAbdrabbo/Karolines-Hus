@@ -177,6 +177,22 @@ footer{
     }
 }
 
+// exhibition tamplet
+.template-exh-main{
+    padding: 0 3% 3% 3%;
+}
+.exhbition-post {
+   
+    
+    h3 {color:$second-color; 
+    padding-top: 10%;
+    font-size: 1.5em;
+    font-family: 'Shadows Into Light', cursive;
+    }
+    p {
+     text-align: center;}
+}
+
 
 @media only screen and (min-width:768px) {
    .mobile-nav {display: none;}
@@ -186,6 +202,7 @@ footer{
          
  
     }
+    
     
     
     /* Main Navigation */
@@ -279,8 +296,12 @@ footer{
     h3{ margin-bottom: 3%;
         font-size: 2em;}
 }
-
     
+    .exhbition-post {
+        h3 {padding-top: 5%;}
+    }
+
+    .template-exh-main {padding-bottom: 1%;}  
 }
 
 @media only screen and (min-width:1200px) {
