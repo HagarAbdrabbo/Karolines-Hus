@@ -136,6 +136,17 @@ footer {
     font-size: 2em;
     font-family: 'Shadows Into Light', cursive; }
 
+.template-exh-main {
+  padding: 0 3% 3% 3%; }
+
+.exhbition-post h3 {
+  color: #f2702e;
+  padding-top: 10%;
+  font-size: 1.5em;
+  font-family: 'Shadows Into Light', cursive; }
+.exhbition-post p {
+  text-align: center; }
+
 @media only screen and (min-width: 768px) {
   .mobile-nav {
     display: none; }
@@ -219,7 +230,13 @@ footer {
     height: 60vh; }
   .template-main h3 {
     margin-bottom: 3%;
-    font-size: 2em; } }
+    font-size: 2em; }
+
+  .exhbition-post h3 {
+    padding-top: 5%; }
+
+  .template-exh-main {
+    padding-bottom: 1%; } }
 @media only screen and (min-width: 1200px) {
   header img {
     padding-top: 3%; }

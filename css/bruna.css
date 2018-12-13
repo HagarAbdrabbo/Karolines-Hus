@@ -334,7 +334,8 @@ li {
   text-align: justify;
   justify-content: all;
   padding-left: 15%;
-  line-height: 4vh; }
+  line-height: 4vh;
+  margin-top: -5%; }
 
 .opening-all {
   margin-top: 10%; }
@@ -343,10 +344,17 @@ li {
   padding-bottom: 5%; }
 
 .hours {
-  line-height: 4vh;
   text-align: justify;
   justify-content: all;
-  padding-left: 24%; }
+  padding: 6%;
+  font-size: 1em;
+  font-weight: lighter;
+  margin-top: -7%; }
+  .hours i {
+    font-size: 0.7em; }
+
+.lower-p {
+  margin-top: -13%; }
 
 /* map */
 #map {
@@ -494,8 +502,15 @@ input {
       padding-right: 5%;
       padding-top: 5%; }
 
+  .contact-info li {
+    margin-bottom: 1.5%; }
+
   .contact {
+    margin-right: 35%;
     padding-top: 0; }
+
+  .contact-h2 {
+    margin-right: 15%; }
 
   .opening-all {
     margin-top: 0; }
@@ -504,7 +519,8 @@ input {
     justify-content: none; }
 
   .hours {
-    padding-left: 10%; }
+    padding-left: 10%;
+    padding-right: 8%; }
 
   /* map */
   #map {
@@ -573,6 +589,12 @@ input {
   .contact-info {
     margin-left: 18%; }
 
+  .contact {
+    padding-top: 0; }
+
+  .contact-h2 {
+    margin-right: 10%; }
+
   .hours {
     padding-left: 23%; }
 
@@ -596,7 +618,7 @@ input {
     height: 55vh; }
 
   .index-section2 img {
-    height: 50vh; }
+    height: 70vh; }
   .index-section2 ul {
     margin-left: 5%;
     margin-top: 5%; }
@@ -604,5 +626,15 @@ input {
   .section-opening {
     justify-content: none; }
 
+  .contact {
+    margin-right: 15%; }
+
+  .section-opening {
+    margin-right: 7%;
+    padding-left: 0;
+    margin-left: 5%; }
+
   .opening-all ul {
     margin-left: 10%; } }
+
+/*# sourceMappingURL=bruna.css.map */
