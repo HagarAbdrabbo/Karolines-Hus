@@ -138,6 +138,9 @@ input{
     h2{
         padding-top: 5%;
     }
+    a{color: black;}
+    
+    a:hover {color: $second-color;}
     
     hr{
         margin-top: 5%;

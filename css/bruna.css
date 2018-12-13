@@ -389,6 +389,10 @@ input {
 /* index page */
 .index-section h2 {
   padding-top: 5%; }
+.index-section a {
+  color: black; }
+.index-section a:hover {
+  color: #f2702e; }
 .index-section hr {
   margin-top: 5%; }
 .index-section img {
@@ -636,5 +640,3 @@ input {
 
   .opening-all ul {
     margin-left: 10%; } }
-
-/*# sourceMappingURL=bruna.css.map */
