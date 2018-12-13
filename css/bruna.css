@@ -50,11 +50,11 @@ header {
     padding: 0;
     margin-right: 5%; }
   .mobile-nav li {
-    color: #f2702e;
     padding: 3.5%;
     font-size: 1.3em;
     text-align: center; }
   .mobile-nav a {
+    color: #f2702e;
     text-decoration: none; }
   .mobile-nav nav.visible {
     display: block; }

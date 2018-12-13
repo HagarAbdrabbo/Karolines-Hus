@@ -68,13 +68,13 @@ header {
     }
     
     li {
-        color: $second-color;
+       
         padding: 3.5%;
         font-size: 1.3em;
         text-align: center;
    }    
     
-    a {
+    a { color: $second-color;
      text-decoration: none;
     }
     
