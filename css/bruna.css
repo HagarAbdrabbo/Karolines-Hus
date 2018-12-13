@@ -303,8 +303,7 @@ footer {
   padding: 4%;
   padding-left: 8%;
   padding-right: 8%;
-  text-align: justify;
-  justify-content: all; }
+  text-align: justify; }
 
 .exh-section {
   padding-bottom: 1%; }
@@ -335,7 +334,6 @@ li {
 
 .contact-info {
   text-align: justify;
-  justify-content: all;
   padding-left: 15%;
   line-height: 4vh;
   margin-top: -5%; }
@@ -348,7 +346,6 @@ li {
 
 .hours {
   text-align: justify;
-  justify-content: all;
   padding: 6%;
   font-size: 1em;
   font-weight: lighter;
@@ -370,7 +367,6 @@ li {
 form {
   margin-left: 8%;
   text-align: justify;
-  justify-content: all;
   font-size: 1.2em; }
 
 .name {
@@ -473,8 +469,7 @@ input {
 
   .exh-desktop {
     display: block;
-    margin-left: 3%;
-    margin-right: 3; }
+    margin-left: 3%; }
     .exh-desktop img {
       padding-top: 6%; }
     .exh-desktop button {
@@ -521,9 +516,6 @@ input {
 
   .opening-all {
     margin-top: 0; }
-
-  .contact-info {
-    justify-content: none; }
 
   .hours {
     padding-left: 10%;
@@ -630,9 +622,6 @@ input {
     margin-left: 5%;
     margin-top: 5%; }
 
-  .section-opening {
-    justify-content: none; }
-
   .contact {
     margin-right: 15%; }
 
@@ -643,5 +632,3 @@ input {
 
   .opening-all ul {
     margin-left: 10%; } }
-
-/*# sourceMappingURL=bruna.css.map */
