@@ -336,7 +336,8 @@ a {
     .artist-desktop img {
       max-width: 100%; }
     .artist-desktop button {
-      margin-top: 10%; }
+      margin-top: 10%;
+      width: 45%; }
     .artist-desktop h2 {
       padding-top: 3%; }
 
@@ -379,7 +380,8 @@ a {
   .artist-desktop ul {
     margin-top: 13%; }
   .artist-desktop button {
-    margin-left: 33%; }
+    margin-left: 33%;
+    width: 35%; }
 
   .artist-page-title {
     padding-top: -0.5%; }
@@ -407,3 +409,5 @@ a {
   .mutual-Artist-page img {
     max-width: 80%;
     height: 40vh; } }
+
+/*# sourceMappingURL=hagar.css.map */
