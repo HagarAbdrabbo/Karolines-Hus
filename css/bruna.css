@@ -86,7 +86,8 @@ button span {
   cursor: pointer;
   display: inline-block;
   position: relative;
-  transition: 0.5s; }
+  transition: 0.5s;
+  color: white; }
 
 button span:after {
   content: '\00bb';
@@ -632,5 +633,3 @@ input {
 
   .opening-all ul {
     margin-left: 10%; } }
-
-/*# sourceMappingURL=bruna.css.map */

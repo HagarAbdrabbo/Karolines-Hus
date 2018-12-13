@@ -104,7 +104,7 @@ button {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    vertical-align:middle
+    vertical-align:middle;
 }
 
 button span {
@@ -112,6 +112,7 @@ button span {
   display: inline-block;
   position: relative;
   transition: 0.5s;
+    color: white;
 }
 
 button span:after {
