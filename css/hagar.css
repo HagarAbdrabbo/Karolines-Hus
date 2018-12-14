@@ -265,7 +265,7 @@ footer {
       width: 15%; }
     .parent-ul li.parent:hover ul.child {
       left: 22%;
-      top: 75px; }
+      top: 85px; }
     .parent-ul li.parent ul.child li {
       font-size: 1em; }
 
@@ -430,3 +430,5 @@ a {
   .mutual-Artist-page img {
     max-width: 80%;
     height: 40vh; } }
+
+/*# sourceMappingURL=hagar.css.map */

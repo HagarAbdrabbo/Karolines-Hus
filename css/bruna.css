@@ -265,7 +265,7 @@ footer {
       width: 15%; }
     .parent-ul li.parent:hover ul.child {
       left: 22%;
-      top: 75px; }
+      top: 85px; }
     .parent-ul li.parent ul.child li {
       font-size: 1em; }
 
@@ -633,3 +633,5 @@ input {
 
   .opening-all ul {
     margin-left: 10%; } }
+
+/*# sourceMappingURL=bruna.css.map */

@@ -265,7 +265,7 @@ footer {
       width: 15%; }
     .parent-ul li.parent:hover ul.child {
       left: 22%;
-      top: 75px; }
+      top: 85px; }
     .parent-ul li.parent ul.child li {
       font-size: 1em; }
 
@@ -283,3 +283,5 @@ footer {
     .template-main h3 {
       margin-bottom: 3%;
       font-size: 2em; } }
+
+/*# sourceMappingURL=global.css.map */
